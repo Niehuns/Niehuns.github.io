@@ -7,27 +7,27 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
-    padding-left: 60px;
 }
 
 .wiki {
-    color:#d96f0b; /* Altere a cor conforme desejado */
-    width: 1100px;
+    color: #d96f0b; /* Altere a cor conforme desejado */
     font-size: 50px;
     font-family: fantasy;
+    width: 900px;
 }
 
+/* Estilos para os links no cabeçalho */
 header a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 16px;
+    padding-left: 0px;
+    position: relative;
 }
 
 header a:hover {
-    color:  #d96f0b; /* Mudar a cor do texto quando o mouse passa sobre ele */
-    text-decoration: none; /* Remover o sublinhado padrão */
-    position: relative; /* Definir posição relativa */
+    color: #d96f0b; /* Mudar a cor do texto quando o mouse passa sobre ele */
     font-weight: bold; /* Deixar o texto em negrito quando o mouse passar sobre ele */
 }
 
@@ -37,7 +37,7 @@ header a:hover::after {
     left: -2.5%; /* Alinhar com a borda esquerda do link */
     bottom: -10px; /* Ajustar a distância do sublinhado conforme necessário */
     width: 106%; /* Cobrir toda a largura do link */
-    border-bottom: 2px solid  #d96f0b; /* Estilo e cor do sublinhado */
+    border-bottom: 5px solid  #d96f0b; /* Estilo e cor do sublinhado */
 }
 
 .aa {
@@ -81,221 +81,103 @@ header a:hover::after {
     margin-left: 10px;
 }
 
+/* Estilos para os contêineres de imagem */
 .image-container {
     border: 3px solid #000; /* Adiciona uma borda preta de 2px */
     padding: 0px; /* Adiciona um preenchimento interno de 10px */
     width: 300px; /* Defina a largura da imagem e da borda */
     height: 350px;
     text-align: center; /* Centraliza o texto dentro da borda */
-    margin-left: 397px;
+    margin-left: 315px;
     margin-top: 80px;
     border-color: #3A53FF;
     border-radius: 5px;
 }
 
-.image-text {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 280px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 24%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-.image-text1 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 240px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 25%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-.image-text2 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 220px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 23.6%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.image-text3 {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3px 4px;
-    background-color: #10cf50;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 13px;
-    margin-left: 260px;
-    margin-top: -250px;
-}
-
-.image-container1 {
-    border: 3px solid #000; /* Adiciona uma borda preta de 2px */
-    padding: 0px; /* Adiciona um preenchimento interno de 10px */
-    width: 300px; /* Defina a largura da imagem e da borda */
+.image-container1, .image-container2, .image-container3 {
+    /* Repetindo estilos semelhantes para os contêineres de imagem 1, 2 e 3 */
+    border: 3px solid #000;
+    padding: 0px;
+    width: 300px;
     height: 350px;
-    text-align: center; /* Centraliza o texto dentro da borda */
+    text-align: center;
     margin-left: 350px;
     margin-top: -255px;
     border-color: #3A53FF;
     border-radius: 5px;
+}
+
+.image-text, .image-text1, .image-text2, .image-text4, .image-text5, .image-text6, .image-text8, .image-text9, .image-text10, .image-text12, .image-text13, .image-text14 {
+    position: absolute; /* Define o texto como absoluto */
+    font-size: 16px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Estilos específicos para cada texto */
+.image-text {
+    bottom: 50px;
+    left: 23%;
+}
+
+.image-text1 {
+    bottom: 10px;
+    left: 23%;
+}
+
+.image-text2 {
+    bottom: -10px;
+    left: 23%;
 }
 
 .image-text4 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 280px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 42.6%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    bottom: 50px;
+    left: 46%;
 }
+
 .image-text5 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 240px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 43.8%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    bottom: 10px;
+    left: 46%;
 }
+
 .image-text6 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 220px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 42.5%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.image-text7 {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3px 4px;
-    background-color: #10cf50;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 13px;
-    margin-left: 260px;
-    margin-top: -250px;
-}
-
-.image-container2 {
-    border: 3px solid #000; /* Adiciona uma borda preta de 2px */
-    padding: 0px; /* Adiciona um preenchimento interno de 10px */
-    width: 300px; /* Defina a largura da imagem e da borda */
-    height: 350px;
-    text-align: center; /* Centraliza o texto dentro da borda */
-    margin-left: 350px;
-    margin-top: -255px;
-    border-color: #3A53FF;
-    border-radius: 5px;
+    bottom: -10px;
+    left: 46%;
 }
 
 .image-text8 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 280px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 61%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    bottom: 50px;
+    left: 69%;
 }
+
 .image-text9 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 240px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 62%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    bottom: 10px;
+    left: 69%;
 }
+
 .image-text10 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 220px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 60.8%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.image-text11 {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3px 4px;
-    background-color: #10cf50;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 13px;
-    margin-left: 260px;
-    margin-top: -250px;
-}
-
-.image-container3 {
-    border: 3px solid #000; /* Adiciona uma borda preta de 2px */
-    padding: 0px; /* Adiciona um preenchimento interno de 10px */
-    width: 300px; /* Defina a largura da imagem e da borda */
-    height: 350px;
-    text-align: center; /* Centraliza o texto dentro da borda */
-    margin-left: 350px;
-    margin-top: -255px;
-    border-color: #3A53FF;
-    border-radius: 5px;
+    bottom: -10px;
+    left: 69%;
 }
 
 .image-text12 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 280px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 79%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-.image-text13 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 240px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 80.5%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-.image-text14 {
-    position: absolute; /* Define o texto como absoluto */
-    bottom: 220px; /* Define a distância entre o texto e a parte inferior do contêiner */
-    left: 78.7%; /* Define o texto para estar no centro horizontalmente */
-    transform: translateX(-50%); /* Corrige o centro horizontal */
-    font-size: 16px;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    bottom: 50px;
+    left: 92%;
 }
 
-.image-text15 {
+.image-text13 {
+    bottom: 5px;
+    left: 92%;
+}
+
+.image-text14 {
+    bottom: -14px;
+    left: 92%;
+}
+
+/* Estilos para os estados dos personagens (Alive, etc.) */
+.image-text3, .image-text7, .image-text11, .image-text15 {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     padding: 3px 4px;
@@ -307,4 +189,40 @@ header a:hover::after {
     font-size: 13px;
     margin-left: 260px;
     margin-top: -250px;
+}
+
+/* Estilos para o contêiner de pesquisa */
+.search-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search-label {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    border-color: #3A53FF;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #3A53FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
 }
